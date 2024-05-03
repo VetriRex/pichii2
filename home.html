@@ -12,82 +12,51 @@
             padding: 0;
             width: 100vw;
             height: 100vh;
-            background:url(5586989.jpg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url(5586989.jpg);
+            overflow-y: auto; 
             background-attachment: fixed;
             background-repeat: no-repeat;
-            background-size: auto;
+            background-size: cover;
         }
 
         .container {
-            max-width: 80%;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px; /* Set maximum width */
+            height: auto;
+            max-height: 80vh; /* Set maximum height */
+         
             text-align: center;
             animation: fadeIn 1s ease;
         }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
+        .container p {
+            text-align: justify;
+            line-height: 1.5;
+            font-weight: bolder;
         }
 
-        h1 {
-            color: #333;
-            animation: slideInDown 1s ease;
-        }
 
-        p {
-            color: #666;
-            line-height: 1.6;
-            animation: fadeIn 1s ease;
-        }
-
-        #heart {
-            font-size: 5em;
-            color: red;
-            animation: heartbeat 1s infinite alternate;
-        }
-
-        @keyframes heartbeat {
-            from {
-                transform: scale(1);
-            }
-            to {
-                transform: scale(1.1);
-            }
-        }
-
-        @keyframes slideInDown {
-            from {
-                transform: translateY(-50px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
+        /* Media Query for smaller screens */
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 90%; /* Adjust width for smaller screens */
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>I'm Sorry</h1>
-        <p style="font-weight: bold;">My Dear Pichii !</p>
-        <p>I know I've hurt you, and for that, I'm truly sorry. I regret my actions and wish I could take them back.</p>
-        <p>You're the best girl I ever seen, and seeing you upset breaks my heart.</p>
-        <p>I wish your the first and last</p>
-        <p><span style="font-weight: bold;">Please forgive me.</span> I promise I will not stop untill you <span style="font-weight: bold;"> forgive me</span> & get <span style="font-weight: bold;">interest</span> on me. </p>
-        <img src="Animation - 1714531630628.gif" style="height: 100px;">
-        <p><span style="font-weight: bold;">We are good</span> friends.</p>
-        <span>&#129680;</span>
-            <span>&#128151;</span>
+        <div>
+            <p>Forgive me I'm disturbing you again. I Apologize to all because I'm the idiot you maintained a friend relationship but i didn't realize, I took over advantage at you.</p>
+            <p>The main reason why I reacted like that is because I don't know how to approach a girl, I don't know how girls interact, and u're the first girl I spoke closely. but I talked one girl in college she's friendly type she is speaks all boys in class also me if she'll ask me reading haa??, writing haa??, M chestunav I'll say yes, nothing. if she ask somthing else I say nothing, don't know that's it.</p>
+            <p>That's why I felt different on you I didn't know what's it so that's why I reacted like that. please understand that my action were not a reflection of who I am as a person.</p>
+            <p>I'm not saying to justify myself. so plz don't judge me & don't think badly about my character; I'm not like that person. I know I behaved foolishly and I'm really ashamed of myself.</p>
+            <p>If I was irritated, disturbed or forced you Forgive me.</p>
+            <p>Regardless of your response, I want you to know that I respect your boundaries and Will not reach out to you again without your permission.</p>
+        </div>
     </div>
 </body>
 </html>
